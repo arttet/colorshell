@@ -111,3 +111,13 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Nix build result
+result
+result-*
+
+# AGS build output
+dist/
+
+# Bun lock file (generated)
+bun.lock
