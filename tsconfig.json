@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "astal/gtk4",
+    "types": ["@types/bun"],
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*", "eslint.config.ts"]
+}

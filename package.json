@@ -1,0 +1,21 @@
+{
+  "name": "colorshell",
+  "version": "0.1.0",
+  "module": "src/app/main.ts",
+  "scripts": {
+    "dev": "ags run src/app/main.ts",
+    "build": "ags build src/app/main.ts -o dist/colorshell",
+    "lint": "eslint src/",
+    "fmt": "dprint fmt",
+    "fmt:check": "dprint check",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "dprint": "latest",
+    "eslint": "^9",
+    "jiti": "^2",
+    "typescript": "^5.8",
+    "typescript-eslint": "^8"
+  }
+}
